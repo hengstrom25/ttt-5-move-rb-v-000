@@ -13,4 +13,3 @@ puts "#{board}"
 puts "Where would you like to go?"
 user_input = gets.strip
 puts "#{input_to_index(user_input)}"
-puts "#{update_board_at_with(board, index, value)}"
