@@ -4,6 +4,7 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def update_board(board, index, value="X")
   board[index] = value
 end
