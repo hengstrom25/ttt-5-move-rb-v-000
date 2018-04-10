@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def update_board_at_with(board, index, value)
+def update_board(board, index, value="X")
   board[index] = value
 end
 
@@ -13,3 +13,4 @@ puts "#{board}"
 puts "Where would you like to go?"
 user_input = gets.strip
 puts "#{input_to_index(user_input)}"
+puts "#{update_board(board, index, value="X")}:
