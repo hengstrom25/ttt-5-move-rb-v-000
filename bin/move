@@ -5,10 +5,6 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move(board, index, value="X")
-  return "board[index] = value"
-end
-
 puts "Welcome to Tic Tac Toe!"
 puts "#{board}"
 puts "Where would you like to go?"
